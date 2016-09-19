@@ -54,7 +54,7 @@
 <h3>
 <a id="问题-1" class="anchor" href="#%E9%97%AE%E9%A2%98-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>问题：</h3>
 
-<p>在程序中读取了联系人，然后运行程序的时候程序崩溃，查看LogCat：</p>
+<p>在程序中读取了联系人姓名，然后运行程序的时候程序崩溃，查看LogCat：</p>
 
 <blockquote>
 <hr>
@@ -69,6 +69,19 @@
 
 <ul>
 <li>在“bin/AndroidMainfest.xml”中的<code>&lt;manifest&gt;</code> 节点中添加一句 <code>&lt;uses-permission android:name="android.permission.READ_CONTACTS"/&gt;</code>来允许程序读取用户联系人数据</li>
+</ul>
+
+<h3>
+<a id="问题-2" class="anchor" href="#%E9%97%AE%E9%A2%98-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>问题：</h3>
+
+<p>在程序中尝试读取联系人的电话号码，然后运行程序的时候程序又崩溃了。</p>
+
+<h3>
+<a id="解决方案-2" class="anchor" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>解决方案：</h3>
+
+<ul>
+<li>参考<code>http://www.cnblogs.com/buxianghe/archive/2012/06/01/2531295.html</code>
+</li>
 </ul>
         </section>
 
