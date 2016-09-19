@@ -1,6 +1,6 @@
 {
   "name": "Android学习中遇到的问题",
-  "tagline": "~",
-  "body": "先占个坑",
+  "tagline": "",
+  "body": "\r\n### 问题：\r\n   在layout中添加按钮，使用 `android:text=\"你会不会呀\"` 为按钮添加text,结果出现以下警告 \r\n\r\n>\r\n***\r\n `[I18N] Hardcoded string \"你会不会呀\", should use @string resource  `\r\n***\r\n\r\n### 解决方案：\r\n  * 在“res/values/strings.xml”中的`<resources>` 节点中添加 `<string name=\"button1\">你会不会呀</string> `\r\n  * 把原来的 `android:text=\"你会不会呀\"` 改为 `android:text=\"@string/button1\"`\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
